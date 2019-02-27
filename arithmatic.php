@@ -38,15 +38,17 @@
 
 
 
-$f = false || true;
-$e = false or true;
+// $f = false || true;
+// $e = false or true;
+// var_dump($f, $e);
 
 
-var_dump($f, $e);
-
-
-
-
+// while loop
+$a = 0;
+while($a<10){
+    $a++;
+    echo $a.PHP_EOL;
+}
 
 
 
